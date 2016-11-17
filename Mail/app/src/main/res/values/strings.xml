@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mail</string>
+    <string name="username">账号：</string>
+    <string name="pwd">密码：</string>  <!-- &#160;  代表空格-->
+    <string name="login">登陆</string>
+    <string name="mail_at">\@</string>
+    <string name="hint_pwd">请输入密码</string>
+    <string name="hint_username">请输入用户名</string>
+
+    <string-array name="mail_company">
+        <item>\@qq.com</item>
+        <item>\@163.com</item>
+        <item>\@139.com</item>
+      <!--  <item>\@live.com</item>
+        <item>\@126.com</item> -->
+    </string-array>
+</resources>

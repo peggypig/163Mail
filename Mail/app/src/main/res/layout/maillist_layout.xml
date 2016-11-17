@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:text="收件箱(刷新)"
+            android:textSize="25sp"
+            android:clickable="true"
+            android:id="@+id/tv_change"
+            android:onClick="tv_change_clicked"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/tv_write"
+            android:clickable="true"
+            android:onClick="tv_write_clicked"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent"
+            android:text="写邮件"
+            android:textSize="25sp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_mail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

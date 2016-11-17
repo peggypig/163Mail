@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="port_qq">465</string>
+    <string name="port_163">25</string>
+    <string name="port_139_send">25</string>    <!--不带SSL的发件服务器的端口-->
+    <string name="port_139_receive">110</string>    <!--不带SSL的收件服务器的端口-->
+
+
+
+    <string name="server_qq">smtp.qq.com</string>
+    <string name="server_163">smtp.163.com</string>
+    <string name="server_139_send">smtp.139.com</string><!--139发件服务器-->
+    <string name="server_139_receive">pop.139.com</string><!--139收件服务器-->
+</resources>
